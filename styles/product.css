@@ -1,0 +1,38 @@
+.info {
+  padding-bottom: 20px;
+}
+
+.product-image {
+  max-width: 75%;
+}
+
+.product-container {
+  display: flex;
+}
+
+.product-text {
+  padding: 10px;
+}
+
+.product-title {
+  margin-bottom: 0.5rem;
+}
+
+.product-info-text {
+  margin-top: 0px;
+}
+
+@media (max-width: 900px) {
+  .product-image {
+    max-width: 100%;
+  }
+
+  .product-container {
+    flex-direction: column;
+    flex-flow: row wrap;
+  }
+
+  .product-text {
+    padding: 0px;
+  }
+}

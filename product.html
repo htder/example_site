@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>To Change</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/product.css" />
+    <link rel="stylesheet" href="styles/modal.css" />
+    <link rel="stylesheet" href="styles/dropdown.css" />
+    <script src="./app.js" defer type="module"></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="header">
+      <div class="section">
+        <div class="nav">
+          <a class="button button-primary" href="./index.html">Home</a>
+          <div class="dropdown">
+            <a class="button products dropbtn">Products</a>
+            <div class="dropdown-content">
+              <a class="button" href="./product.html">Product 1</a>
+              <a class="button" href="./product.html">Product 2</a>
+              <a class="button" href="./product.html">Product 3</a>
+            </div>
+          </div>
+          <a class="button contact open-modal" href="#">Contact Us</a>
+        </div>
+        <div class="action">
+          <h1 class="title">Electrical Product Company</h1>
+          <h2>Donec pulvinar ullamcorper metus</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- BODY -->
+    <div class="info">
+      <div class="section">
+        <h2>Generic Electrical Component</h2>
+        <div class="product-container">
+          <img class="product-image" src="./images/pexels-dcbel-11678701.jpg" />
+          <p class="product-text">
+            Mei te possit instructior, idque delenit qui et, dicit ludus commune
+            vix ad. Ea modo dicam cetero mel, case disputationi at est. Mei te
+            possit instructior, idque delenit qui et, dicit ludus commune vix
+            ad. Ea modo dicam cetero mel, case disputationi at est. Mei te
+            possit instructior, idque delenit qui et, dicit ludus commune vix
+            ad. Ea modo dicam cetero mel, case disputationi at est.
+          </p>
+        </div>
+        <div class="product-info-section">
+          <div class="product-info">
+            <h4 class="product-title">Product Details</h4>
+            <p class="product-info-text">
+              Mei te possit instructior, idque delenit qui et, dicit ludus
+              commune vix ad. Ea modo dicam cetero mel, case disputationi at
+              est. Mei te possit instructior, idque delenit qui et, dicit ludus
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              commune vix ad. Ea modo dicam cetero mel, case disputationi at
+              est. Mei te possit instructior, idque delenit qui et, dicit ludus
+              commune vix ad. Ea modo dicam cetero mel, case disputationi at
+              est.
+            </p>
+          </div>
+          <div class="product-info">
+            <h4 class="product-title">Product Specifications</h4>
+            <p class="product-info-text">
+              Mei te possit instructior, idque delenit qui et, dicit ludus
+              commune vix ad. Ea modo dicam cetero mel, case disputationi at
+              est. Mei te possit instructior, idque delenit qui et, dicit ludus
+              commune vix ad. Ea modo dicam cetero mel, case disputationi at
+              est. Mei te possit instructior, idque delenit qui et, dicit ludus
+              commune vix ad. Ea modo dicam cetero mel, case disputationi at
+              est.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer section">
+      <div class="copyright">
+        <p>
+          © A Generic Company Name, 2022. A Generic Company Name is a registered
+          trademark.
+        </p>
+      </div>
+    </div>
+  </body>
+  <div class="modal">
+    <div class="modal-container">
+      <div class="modal-content">
+        <form>
+          <h3>Contact Us!</h3>
+          <div>
+            <i class="error-message-name hide">Please enter a name</i>
+            <p class="modal-input">
+              Name:<br>
+              <input type="text" name="fullname" id="name">
+            </p>
+          </div>
+          <div>
+            <i class="error-message-email hide">Please enter a valid email</i>
+            <p class="modal-input">
+              Email:<br>
+              <input type="email" name="email" id="email">
+            </p>
+          </div>
+          <div>
+            <i class="error-message-text hide">Please enter a message</i>
+            <p class="modal-input">
+              Message:<br>
+              <textarea name="message" rows=5 id="message"></textarea>
+            </p>
+          </div>
+          <div class="modal-buttons">
+            <input type="submit" class="modal-submit" value="Submit">
+            <input type="button" class="close-modal" value="Cancel">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</html>
